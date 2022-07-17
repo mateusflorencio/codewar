@@ -1,0 +1,25 @@
+{
+  "name": "codewar",
+  "version": "1.0.0",
+  "description": "space for codewar pratice",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "dev": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateusflorencio/codewar.git"
+  },
+  "author": "mateus florencio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateusflorencio/codewar/issues"
+  },
+  "homepage": "https://github.com/mateusflorencio/codewar#readme",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "jest": "^28.1.3"
+  }
+}

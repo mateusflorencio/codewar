@@ -79,3 +79,22 @@ export class CalculatorOne{
         return ['/' ,value]
     }
 }
+
+//second resolution with best pratices
+export class CalculatorBestPratice {
+    zero(func)   { return func ? func(0) : 0 }
+    one(func)    { return func ? func(1) : 1 }
+    two(func)    { return func ? func(2) : 2 }
+    three(func)  { return func ? func(3) : 3 }
+    four(func)   { return func ? func(4) : 4 }
+    five(func)   { return func ? func(5) : 5 }
+    six(func)    { return func ? func(6) : 6 }
+    seven(func)  { return func ? func(7) : 7 }
+    eight(func)  { return func ? func(8) : 8 }
+    nine(func)   { return func ? func(9) : 9 }
+
+    plus( b )      { return ( a )=> { return a + b } }
+    minus( b )     { return ( a )=> { return a - b } }
+    times( b )     { return ( a ) =>{ return a * b } }
+    dividedBy( b ) { return ( a )=> { return a / b } }
+}
